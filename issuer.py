@@ -29,7 +29,7 @@ def main():
     comment=get_comment(fileName=args['comment'])
     reponame=args['reponame']
     issuenumber=args['issuenumber']
-    print(username,password,comment)
+    # print(username,password,comment)
     post_comment(reponame,issuenumber,username,password,comment)
 
 
